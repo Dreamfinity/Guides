@@ -1,0 +1,62 @@
+site_name: Гайды
+site_url: https://guides.dreamfinity.org
+docs_dir: guides
+site_author: <Georgii Imeshkenov aka @Veritaris, georgiiimeshkenov@gmail.com>
+
+nav:
+  - Главная страница: index.md
+  - Spacecross:
+        - "Гайды": Spacecross/index.md
+  - Arcanefactory:
+        - "Гайды": Arcanefactory/index.md
+  - Technocracy:
+      - "Гайды": Technocracy/index.md
+  - Mageweave:
+      - "Гайды": Mageweave/index.md
+      - "Hardcore Ender Expansion (HEE) от Not_a_Happy_Cat": Mageweave/hardcore_ender_expansion_by_not_a_happy_cat/index.md
+
+plugins:
+  search:
+    lang:
+      - ru
+      - en
+
+theme:
+  name: material
+  custom_dir: theme
+
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+
+  language: ru
+
+  features:
+    - navigation.top
+    - search.suggest
+    -
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: dreamfinity
+      accent: dreamfinity
+      toggle:
+        icon: material/brightness-7
+        name: Темная тема
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: dreamfinity
+      accent: dreamfinity
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
