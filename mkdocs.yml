@@ -14,6 +14,7 @@ nav:
   - Mageweave:
       - "Гайды": Mageweave/index.md
       - "Hardcore Ender Expansion (HEE) от Not_a_Happy_Cat": Mageweave/hardcore_ender_expansion_by_not_a_happy_cat/index.md
+  - Гайд о гайде: how_to_contribute/index.md
 
 plugins:
   search:
