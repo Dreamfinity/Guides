@@ -6,9 +6,9 @@ site_author: <Georgii Imeshkenov aka @Veritaris, georgiiimeshkenov@gmail.com>
 nav:
   - Главная страница: index.md
   - Spacecross:
-        - "Гайды": Spacecross/index.md
+      - "Гайды": Spacecross/index.md
   - Arcanefactory:
-        - "Гайды": Arcanefactory/index.md
+      - "Гайды": Arcanefactory/index.md
   - Technocracy:
       - "Гайды": Technocracy/index.md
   - Mageweave:
@@ -17,10 +17,12 @@ nav:
   - Гайд о гайде: how_to_contribute/index.md
 
 plugins:
-  search:
-    lang:
-      - ru
-      - en
+  - search:
+      lang:
+        - ru
+        - en
+
+  - glightbox:
 
 theme:
   name: material
@@ -33,8 +35,11 @@ theme:
 
   features:
     - navigation.top
+    - navigation.path
+#    - toc.integrate
+#    - navigation.sections
+#    - navigation.tabs
     - search.suggest
-    -
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -53,6 +58,8 @@ theme:
         name: Светлая тема
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - admonition
   - pymdownx.details
   - pymdownx.superfences
