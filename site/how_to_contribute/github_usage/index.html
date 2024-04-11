@@ -1,0 +1,967 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="<Georgii Imeshkenov aka @Veritaris, georgiiimeshkenov@gmail.com>">
+      
+      
+        <link rel="canonical" href="https://guides.dreamfinity.org/how_to_contribute/github_usage/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.2">
+    
+    
+      
+        <title>Использование GitHub - Dreamfinity | Гайды</title>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.d451bc0e.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a5377069.min.css">
+      
+      
+
+
+    
+
+    <link rel="stylesheet" href="../../styles/article.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/logo.css">
+
+
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="dreamfinity" data-md-color-accent="dreamfinity">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#github" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../.." title="Dreamfinity | Гайды" class="md-header__button md-logo" aria-label="Dreamfinity | Гайды" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dreamfinity | Гайды
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Использование GitHub
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="dreamfinity" data-md-color-accent="dreamfinity"  aria-label="Темная тема"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Темная тема" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="dreamfinity" data-md-color-accent="dreamfinity"  aria-label="Светлая тема"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Светлая тема" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Dreamfinity | Гайды" class="md-nav__button md-logo" aria-label="Dreamfinity | Гайды" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    Dreamfinity | Гайды
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Главная страница
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Spacecross
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Spacecross
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Spacecross/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Гайды
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Arcanefactory
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Arcanefactory
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Arcanefactory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Гайды
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Technocracy
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Technocracy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Technocracy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Гайды
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Mageweave
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Mageweave
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mageweave/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Гайды
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mageweave/hardcore_ender_expansion_by_not_a_happy_cat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hardcore Ender Expansion (HEE) от Not_a_Happy_Cat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mageweave/witchery_by_not_a_happy_cat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Witchery от Not_a_Happy_Cat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Гайд о гайде
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Регистрация
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Форк
+  </a>
+  
+    <nav class="md-nav" aria-label="Форк">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Выбор куда форкать
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Рабочее пространство
+  </a>
+  
+    <nav class="md-nav" aria-label="Рабочее пространство">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Как открыть
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Само рабочее пространство
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Создание первых файлов
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Проверка как выглядит гайд
+  </a>
+  
+    <nav class="md-nav" aria-label="Проверка как выглядит гайд">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    Терминал
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    Установка зависимостей
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    Локальный старт
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    Просмотр
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    Фиксация изменений
+  </a>
+  
+    <nav class="md-nav" aria-label="Фиксация изменений">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scm" class="md-nav__link">
+    Открытие SCM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    Добавление файлов
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    Фиксация изменений
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    Синхронизация изменений
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    Добавление в общий репозиторий
+  </a>
+  
+    <nav class="md-nav" aria-label="Добавление в общий репозиторий">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pr" class="md-nav__link">
+    Создание PR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    Статус гайда
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    Комментарии к гайду
+  </a>
+  
+    <nav class="md-nav" aria-label="Комментарии к гайду">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    Редактирование гайда по комментарию
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    Фиксация изменений
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    Закрытие комментариев
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+    
+                  
+
+
+<h1 id="github">Использование GitHub<a class="headerlink" href="#github" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Кнопки, текст или иконки, на которые нужно обратить внимание, отмечены на скриншотах
+фиолетовым цветом</p>
+</div>
+<h2 id="_1">Регистрация<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Для начала нужно зарегистрироваться на сайте <a href="https://github.com/">GitHub</a></p>
+<h2 id="_2">Форк<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>После регистрации нужно перейти в <a href="https://github.com/Dreamfinity/Guides">репозиторий</a> с гайдами и нажать кнопку <code>Fork</code></p>
+<p><a class="glightbox" href="../images/00_forking.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/00_forking.png" /></a></p>
+<h3 id="_3">Выбор куда форкать<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>Создавая форк убедитесь что в <code>Owner</code> выбран ваш аккаунт (если вы только зарегистрировались, то он будет единственный
+доступный). Нажмите кнопку <code>Create fork</code></p>
+<p><a class="glightbox" href="../images/01_fork.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/01_fork.png" /></a></p>
+<h2 id="_4">Рабочее пространство<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_5">Как открыть<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>Для создания гайда в браузере нажмите на зелёную кнопку <code>Code</code>, затем <code>Codespaces</code> и <code>Create codepspace on master</code></p>
+<p><a class="glightbox" href="../images/02_forked_repo.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/02_forked_repo.png" /></a>
+<a class="glightbox" href="../images/03_codespaces_opening.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/03_codespaces_opening.png" /></a></p>
+<h3 id="_6">Само рабочее пространство<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>После этого у вас откроется <code>Codespace</code> - онлайн рабочее пространство</p>
+<p><a class="glightbox" href="../images/04_codespaces_opened.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/04_codespaces_opened.png" /></a></p>
+<p>Слева вы можете создавать папки и файлы щелчком правой кнопки мыши будто работаете локально</p>
+<p><a class="glightbox" href="../images/05_codespaces_creating_dirs_and_files.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/05_codespaces_creating_dirs_and_files.png" /></a></p>
+<h3 id="_7">Создание первых файлов<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>Создайте папку с именем вашего гайда (в данном случае <code>how_to_contibute</code>) и в нём файл <code>index.md</code></p>
+<p>Затем выполните шаги, выполненные в пункте <a href="../#краткое-описание">краткое описание</a></p>
+<p><a class="glightbox" href="../images/06_codespaces_opening_terminal.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/06_codespaces_opening_terminal.png" /></a></p>
+<h2 id="_8">Проверка как выглядит гайд<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<p>Для проверки как выглядит гайд можно использовать встроенные средства онлайн-редактора</p>
+<h3 id="_9">Терминал<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<p>Сначала отройте терминал, нажав на значок справа сверху. </p>
+<p><a class="glightbox" href="../images/07._codespaces_pre_open_terminal.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/07._codespaces_pre_open_terminal.png" /></a></p>
+<p>Снизу появится консоль</p>
+<p><a class="glightbox" href="../images/07_codespaces_opened_terminal.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/07_codespaces_opened_terminal.png" /></a></p>
+<h3 id="_10">Установка зависимостей<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>Установите необходимые пакеты командой <code>pip install -r dependencies.txt</code></p>
+<p><a class="glightbox" href="../images/08_codespaces_installing_deps.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/08_codespaces_installing_deps.png" /></a></p>
+<h3 id="_11">Локальный старт<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>После этого введите команду <code>python -m mkdocs serve</code> чтобы запустить гайды</p>
+<p><a class="glightbox" href="../images/09_codespaces_serving_guides.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/09_codespaces_serving_guides.png" /></a></p>
+<h3 id="_12">Просмотр<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p>Перейдите внизу на вкладку "Порты" и нажмите "Открыть в браузере" - у вас откроется главная страница с гайдами и вы
+сможете просмотреть что получилось</p>
+<p><a class="glightbox" href="../images/10_codespaces_open_served_guides.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/10_codespaces_open_served_guides.png" /></a></p>
+<p><a class="glightbox" href="../images/11_served_guides.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/11_served_guides.png" /></a></p>
+<h2 id="_13">Фиксация изменений<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<h3 id="scm">Открытие SCM<a class="headerlink" href="#scm" title="Permanent link">&para;</a></h3>
+<p>Когда вы завершили работу над гайдом перейдите в третью вкладку слева сверху</p>
+<p><a class="glightbox" href="../images/12_codespaces_open_scm.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/12_codespaces_open_scm.png" /></a></p>
+<h3 id="_14">Добавление файлов<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<p>и нажмите на значок "+" рядом с каждым файлом и папкой, чтобы они переместились в секцию "Промежуточные изменения"</p>
+<p><a class="glightbox" href="../images/13_codespaces_adding_files_to_stage_area.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/13_codespaces_adding_files_to_stage_area.png" /></a></p>
+<p>Затем нужно ввести любое сообщение в поле "Сообщение"</p>
+<p><a class="glightbox" href="../images/14_codespaces_files_after_adding.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/14_codespaces_files_after_adding.png" /></a></p>
+<h3 id="_15">Фиксация изменений<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p>и нажать "Фиксация"</p>
+<p><a class="glightbox" href="../images/15_codespaces_commit_message.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/15_codespaces_commit_message.png" /></a></p>
+<h3 id="_16">Синхронизация изменений<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<p>После необходимо нажать на "Синхронизировать изменения"</p>
+<p><a class="glightbox" href="../images/16_codespaces_changes_push.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/16_codespaces_changes_push.png" /></a></p>
+<p>и нажать "Ok" во всплывающем окне</p>
+<p><a class="glightbox" href="../images/17_codespaces_confirm_push.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/17_codespaces_confirm_push.png" /></a></p>
+<h2 id="_17">Добавление в общий репозиторий<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
+<p>Теперь необходимо создать запрос на внесение гайда в общий репозиторий</p>
+<h3 id="pr">Создание PR<a class="headerlink" href="#pr" title="Permanent link">&para;</a></h3>
+<p>Для этого вернитесь на страницу вашего форкнутого репозитория и нажмите "Contribute"</p>
+<p><a class="glightbox" href="../images/18_codespaces_open_repo.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/18_codespaces_open_repo.png" /></a></p>
+<p>а затем "Open pull request"</p>
+<p><a class="glightbox" href="../images/19_codespaces_click_contribute.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/19_codespaces_click_contribute.png" /></a></p>
+<p>На открывшейся странице нажмите "Create pull request"</p>
+<p><a class="glightbox" href="../images/20_codespaces_creating_pr.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/20_codespaces_creating_pr.png" /></a></p>
+<p>Поздравляю, вы отправили свой первый гайд на проверку модераторами!</p>
+<p><a class="glightbox" href="../images/21_codespaces_pr_created.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/21_codespaces_pr_created.png" /></a></p>
+<p>Как только он будет просмотрен модераторами, то мы либо сразу добавим ваш гайд в наш репозиторий, либо
+оставим <a href="#комментарии-к-гайду">комментарии</a> к
+нему</p>
+<h3 id="_18">Статус гайда<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p>Увидеть был ли Ваш гайд внесён в общий репозиторий или нет можно перейдя по
+ссылке <a href="https://github.com/Dreamfinity/Guides/pulls">Pull Request</a>
+на странице общего репозитория и найдя там свой гайд</p>
+<h2 id="_19">Комментарии к гайду<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h2>
+<p>Если к вашему гайду оставили комментарии и вы согласны с ним (а если не согласны - перейдите к пункту
+<a href="#закрытие-комментариев">закрытие комментариев</a>),</p>
+<p><a class="glightbox" href="../images/22_codespaces_mod_added_comments.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/22_codespaces_mod_added_comments.png" /></a></p>
+<p>то вам нужно вновь вернуться в <a href="#рабочее-пространство">рабочее пространство</a>. </p>
+<h3 id="_20">Редактирование гайда по комментарию<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<p>Там, в соответствующем файле, вы сможете увидеть тот же самый комментарий, нажав на иконку диалога слева</p>
+<p><a class="glightbox" href="../images/23_codespaces_see_mod_comments.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/23_codespaces_see_mod_comments.png" /></a></p>
+<h3 id="_21">Фиксация изменений<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
+<p>Исправив замечание / дополнив гайд, повторите <a href="#фиксация-изменений">фиксацию изменений</a>.</p>
+<p><a class="glightbox" href="../images/24_codespaces_fixing_mod_comments.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/24_codespaces_fixing_mod_comments.png" /></a></p>
+<h3 id="_22">Закрытие комментариев<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<p>Чтобы закрыть комментарий найдите свой гайд во вкладке <a href="#статус-гайда">Pull Requests</a> и откройте его. Затем напишите
+свой ответ в поле <code>Reply</code> и нажмите зелёную кнопу <code>Comment</code>, а после - <code>Resolve conversation</code>. При этом хорошим тоном
+будет упомянуть автора комментария через собачку <code>@</code></p>
+<p><a class="glightbox" href="../images/25_codespaces_replying_to_mod.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/25_codespaces_replying_to_mod.png" /></a></p>
+
+
+
+
+
+                
+
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            К началу
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.path", "search.suggest"], "search": "../../assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.726fbb30.min.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
