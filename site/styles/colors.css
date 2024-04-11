@@ -1,0 +1,13 @@
+[data-md-color-primary="dreamfinity"]
+{
+    --md-primary-fg-color:  #7a5497;
+    --md-typeset-a-color:   #7a5497;
+
+    --md-primary-fg-color--light: #7a5497;
+    --md-primary-fg-color--dark: #fafafa;
+}
+
+[data-md-color-accent="dreamfinity"]
+{
+    --md-typeset-a-color--dark: #fafafa;
+}
