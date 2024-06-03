@@ -51,11 +51,12 @@
 ![Установка](./images/installation.jpg)
 
 Команды для ввода:
-
-    - install
-    - pastebin get 0YL9pTk8 nano
-    - pastebin get 5DwVXSpc nscan
-    - pastebin get i3KdR3Aa nconf
+```
+install
+pastebin get 0YL9pTk8 nano
+pastebin get 5DwVXSpc nscan
+pastebin get i3KdR3Aa nconf 
+```
 
 ### 3. ПО и как с ним работать
 
