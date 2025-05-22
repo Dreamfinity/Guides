@@ -2,12 +2,12 @@
 
 Каждый биом описан на своей странице
  
-1. ####[Инфицированный лес (красный)](./new_biomes/infested_forest/index.md)
-    - [Заражённый лес](./new_biomes/infested_forest/index.md#заражённый-лес)
-    - [Разорённый лес](./new_biomes/infested_forest/index.md#разорённый-лес)
-2. ####[Огненные острова (желтые)](./new_biomes/fire_islands/index.md)
+1. ####[Инфицированный лес (красный)](./infested_forest/index.md)
+    - [Заражённый лес](./infested_forest/index.md#заражённый-лес)
+    - [Разорённый лес](./infested_forest/index.md#разорённый-лес)
+2. ####[Огненные острова (желтые)](./fire_islands/index.md)
     - Огненные горы
     - Шахтёрские холмы
-3. ####[Зачарованные острова (фиолетовые)](./new_biomes/enchanted_islands/index.md)
+3. ####[Зачарованные острова (фиолетовые)](./enchanted_islands/index.md)
     - Лаборатория
     - Родина (Хоумленд)
