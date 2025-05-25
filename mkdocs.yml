@@ -5,13 +5,11 @@ site_author: <Georgii Imeshkenov aka @Veritaris, georgiiimeshkenov@gmail.com>
 
 nav:
   - Главная страница: index.md
-  - Правила проекта: rules/index.md
-  - FAQ: FAQ/index.md
   - Arcanefactory:
       - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
       - "\"Гайд по созданию и отладке генератора из Draconic Evolution\" от FCORETOP": Arcanefactory/draconic_reactor/index.md
   - Automatonica:
-      - "Гайды": Automatonica/index.md   
+      - "\"Гайд по привату с помощью Open Parties and Claims\" от IFlyingTea": claim/modern/index.md 
   - Mageweave:
       - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
       - "\"Hardcore Ender Expansion (HEE)\" от Not_a_Happy_Cat": Mageweave/hardcore_ender_expansion_by_not_a_happy_cat/index.md   
