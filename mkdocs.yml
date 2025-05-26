@@ -7,7 +7,7 @@ nav:
   - Главная страница: index.md
   - Arcanefactory:
       - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
-      - "\"Гайд по созданию и отладке генератора из Draconic Evolution\" от FCORETOP": Arcanefactory/draconic_reactor/index.md
+      - "\"Гайд по созданию и отладке генератора из Draconic Evolution\" от FCORETOP": draconic_reactor/index.md
   - Automatonica:
       - "\"Гайд по привату с помощью Open Parties and Claims\" от IFlyingTea": claim/modern/index.md 
   - Mageweave:
