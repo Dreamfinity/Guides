@@ -5,18 +5,21 @@ site_author: <Georgii Imeshkenov aka @Veritaris, georgiiimeshkenov@gmail.com>
 
 nav:
   - Главная страница: index.md
+  - Arcanefactory:
+      - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
+      - "\"Гайд по созданию и отладке генератора из Draconic Evolution\" от FCORETOP": draconic_reactor/index.md
+  - Automatonica:
+      - "\"Гайд по привату с помощью Open Parties and Claims\" от IFlyingTea": claim/modern/index.md 
+  - Mageweave:
+      - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
+      - "\"Hardcore Ender Expansion (HEE)\" от Not_a_Happy_Cat": Mageweave/hardcore_ender_expansion_by_not_a_happy_cat/index.md   
+      - "\"Witchery\" от Not_a_Happy_Cat": Mageweave/witchery_by_not_a_happy_cat/index.md  
   - Spacecross:
-      - "Гайды": Spacecross/index.md
       - "\"Пивоварение и немножко о роме\" от Andy_Erypan": Spacecross/based_guide_about_a_ic2_beer/index.md
       - "\"Материя из Matter Overdrive или генерация ресурсов\" от rrr_game": Spacecross/matter_from_MO_or_resource_generation_by_rrrgame/index.md
       - "\"Наниты и все с ними связанное\" от Sugato": Spacecross/nanites_and_everything_related_to_them_by_sugato/index.md
-  - Arcanefactory:
-      - "Гайды": Arcanefactory/index.md
   - Technocracy:
-      - "Гайды": Technocracy/index.md
-  - Mageweave:
-      - "Гайды": Mageweave/index.md
-      - "Hardcore Ender Expansion (HEE) от Not_a_Happy_Cat": Mageweave/hardcore_ender_expansion_by_not_a_happy_cat/index.md
+      - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
   - Гайд о гайде: how_to_contribute/index.md
 
 plugins:
