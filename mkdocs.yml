@@ -21,6 +21,9 @@ nav:
   - Technocracy:
       - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
   - Гайд о гайде: how_to_contribute/index.md
+  - Правила Проекта: rules/index.md
+  - FAQ: FAQ/index.md
+  - Решение проблем с лаунчером: SolvingLauncherProblems/index.md
 
 plugins:
   - search:
