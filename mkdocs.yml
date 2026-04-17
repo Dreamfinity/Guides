@@ -24,6 +24,23 @@ nav:
   - Правила Проекта: rules/index.md
   - FAQ: FAQ/index.md
   - Решение проблем с лаунчером: SolvingLauncherProblems/index.md
+  - DSGL:
+      - Main page: DSGL/docs/index.md
+      - Quickstart: DSGL/docs/quickstart.md
+      - Core concepts:
+          - State and reactivity: DSGL/docs/state-reactivity.md
+          - Custom components: DSGL/docs/custom-components.md
+          - Hot-reload agent setup: DSGL/docs/hot-reload-agent.md
+          - Cookbook: DSGL/docs/cookbook.md
+          - Troubleshooting: DSGL/docs/troubleshooting.md
+          - Status and limitations: DSGL/docs/status-limitations.md
+          - Architecture overview: DSGL/docs/architecture.md
+          - Project structure: DSGL/docs/project-structure.md
+      - Reference:
+          - Elements overview: DSGL/docs/elements-overview.md
+          - Styling: DSGL/docs/styling.md
+          - Layout model: DSGL/docs/layout-model.md
+          - Hooks: DSGL/docs/hooks.md
 
 plugins:
   - search:
@@ -49,6 +66,8 @@ theme:
 #    - navigation.sections
 #    - navigation.tabs
     - search.suggest
+    - content.code.select
+    - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
