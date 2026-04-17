@@ -9,11 +9,11 @@ nav:
       - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
       - "\"Гайд по созданию и отладке генератора из Draconic Evolution\" от FCORETOP": draconic_reactor/index.md
   - Automatonica:
-      - "\"Гайд по привату с помощью Open Parties and Claims\" от IFlyingTea": claim/modern/index.md 
+      - "\"Гайд по привату с помощью Open Parties and Claims\" от IFlyingTea": claim/modern/index.md
   - Mageweave:
       - "\"Гайд по привату\" от Hallowt": claim/legacy/index.md
-      - "\"Hardcore Ender Expansion (HEE)\" от Not_a_Happy_Cat": Mageweave/hardcore_ender_expansion_by_not_a_happy_cat/index.md   
-      - "\"Witchery\" от Not_a_Happy_Cat": Mageweave/witchery_by_not_a_happy_cat/index.md  
+      - "\"Hardcore Ender Expansion (HEE)\" от Not_a_Happy_Cat": Mageweave/hardcore_ender_expansion_by_not_a_happy_cat/index.md
+      - "\"Witchery\" от Not_a_Happy_Cat": Mageweave/witchery_by_not_a_happy_cat/index.md
   - Spacecross:
       - "\"Пивоварение и немножко о роме\" от Andy_Erypan": Spacecross/based_guide_about_a_ic2_beer/index.md
       - "\"Материя из Matter Overdrive или генерация ресурсов\" от rrr_game": Spacecross/matter_from_MO_or_resource_generation_by_rrrgame/index.md
@@ -24,6 +24,23 @@ nav:
   - Правила Проекта: rules/index.md
   - FAQ: FAQ/index.md
   - Решение проблем с лаунчером: SolvingLauncherProblems/index.md
+  - DSGL:
+      - Main page: DSGL/docs/index.md
+      - Quickstart: DSGL/docs/quickstart.md
+      - Core concepts:
+          - State and reactivity: DSGL/docs/state-reactivity.md
+          - Custom components: DSGL/docs/custom-components.md
+          - Hot-reload agent setup: DSGL/docs/hot-reload-agent.md
+          - Cookbook: DSGL/docs/cookbook.md
+          - Troubleshooting: DSGL/docs/troubleshooting.md
+          - Status and limitations: DSGL/docs/status-limitations.md
+          - Architecture overview: DSGL/docs/architecture.md
+          - Project structure: DSGL/docs/project-structure.md
+      - Reference:
+          - Elements overview: DSGL/docs/elements-overview.md
+          - Styling: DSGL/docs/styling.md
+          - Layout model: DSGL/docs/layout-model.md
+          - Hooks: DSGL/docs/hooks.md
 
 plugins:
   - search:
@@ -49,6 +66,8 @@ theme:
 #    - navigation.sections
 #    - navigation.tabs
     - search.suggest
+    - content.code.select
+    - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
